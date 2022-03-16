@@ -1,0 +1,112 @@
+@media (max-widht: 700px){
+    
+}
+
+body{
+font-family: cursive;
+background: #cdf2d6;
+}
+
+header{
+ background-color: #06d9b6;
+ height: 80px;
+ display: flex;
+ justify-content: space-between; 
+ padding: 10px 30px;
+}
+
+.imagemcachorro{
+height: 400px;
+width: 400px;
+border-radius: 100%;
+}
+
+.titulo:hover{
+font-size: 60px;
+transition-duration: 0.3s;
+transition-timing-function: ease;
+transition-property: font-size;
+}
+
+main{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  padding: 10px;
+  margin-top: 130px;
+}
+
+main div{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    width: 800px;
+}
+
+main div img{
+    margin-left: 300px;
+}
+
+main div p{
+    text-align: justify;
+    font-family: cursive;
+    font-size: 32px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.textocachorro{
+    font-size: 35px;
+    text-align: center;
+}
+
+h1{
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+}
+
+ul.nav{
+    width: 300px;
+    background-color: #06d9b6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 380px;
+    margin-right: 90px;
+    list-style: none;
+    float: left;
+}
+
+ul.nav li a{
+    float:left;
+    border:1px solid black;
+    color: black;
+    width: 150px;
+    height: 27px;
+    padding: 7px  0.2em 0.2em  7px;
+    border-radius: 4px;
+    text-decoration:none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5px;
+}
+
+ul.nav a:hover{
+    background-color: #00C5CD;
+    color: white;
+}
+
+footer{
+    background-color: #06d9b6;
+    bottom: 0;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+}
+
+.frasefinal{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
