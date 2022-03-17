@@ -5,6 +5,7 @@
 
     ul.nav{
         display: inline-block !important;
+        width: 26% !important;
     }
 
     main{
@@ -13,6 +14,7 @@
 
     header{
         background-color: #cdf2d6 !important;
+        padding: 0 !important;
     }
 }
 
