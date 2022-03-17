@@ -30,7 +30,7 @@
     }
 }
 
-@media (min-width: 700px){
+@media (min-width: 700px) and (max-width: 1200px){
     header{
         width: 300vh !important;
     }
@@ -47,7 +47,6 @@ header{
  display: flex;
  justify-content: space-between; 
  padding: 10px 30px;
- width: 300vh;
 }
 
 .imagemcachorro{
