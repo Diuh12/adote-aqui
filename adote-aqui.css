@@ -1,4 +1,10 @@
 @media (max-width: 700px){
+    header{
+        background-color: #cdf2d6 !important;
+        padding: 0 !important;
+        width: 1vh !important;
+    }
+
     .titulo{
         display:none;
     }
@@ -22,10 +28,11 @@
     main{
         display: block !important;
     }
+}
 
+@media (min-width: 700px){
     header{
-        background-color: #cdf2d6 !important;
-        padding: 0 !important;
+        width: 300vh !important;
     }
 }
 
@@ -40,6 +47,7 @@ header{
  display: flex;
  justify-content: space-between; 
  padding: 10px 30px;
+ width: 300vh;
 }
 
 .imagemcachorro{
