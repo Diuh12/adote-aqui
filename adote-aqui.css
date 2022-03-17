@@ -1,11 +1,18 @@
-@media (max-width: 700px) {
+@media (max-width: 700px){
     .titulo{
         display:none;
     }
 
     ul.nav{
+        display: inline-block !important;
+    }
+
+    main{
         display: block !important;
-        padding: 0 !important;
+    }
+
+    header{
+        background-color: #cdf2d6 !important;
     }
 }
 
